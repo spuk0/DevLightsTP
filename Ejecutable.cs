@@ -18,8 +18,7 @@ namespace Resolucion
             while (opcion != 16)
             {
                 int numero = 0;
-                Console.WriteLine("*************************************************************************************************" +
-                    "\nSeleccione el numero del ejercicio:\n" +
+                Console.WriteLine("*************************************************************************************************\n" +                   
                     "[1]>Dado un valor, devolver un mensaje 'El valor es mayor que' sólo cuando se cumpla dicha condicion.\n" +
                     "[2]>Pedir un número entero por teclado y calcular si es par o impar.\n" +
                     "[3]>Teniendo un valor entero, verificar si se cumple o no que ese valor es el doble de un impar.\n" +
@@ -41,7 +40,8 @@ namespace Resolucion
                     "[14]>Modificar el programa anterior para que vaya dando pistas del tipo «mayor» o «menor».\n" +
                     "[15]>Crea un programa que permita sumar N números. \n" +
                     "     El usuario decide cuándo termina de introducir números al indicar la palabra ‘fin’.\n" +
-                    "[16]>Salir\n*************************************************************************************************");
+                    "[16]>Salir\n*************************************************************************************************" +
+                    "\nSeleccione el numero del ejercicio: ");
                 opcion = int.Parse(Console.ReadLine());
                 switch (opcion)
                 {
